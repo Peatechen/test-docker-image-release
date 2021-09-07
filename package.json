@@ -21,6 +21,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "echo 'hhhhhhhhhhh'",
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   },
