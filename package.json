@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/Peatechen/test-docker-image-release.git"
   },
+  "scripts": {
+    "test": "echo hhhhhhhhh"
+  },
   "author": "ppchen",
   "license": "ISC",
   "bugs": {
@@ -21,7 +24,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'hhhhhhhhhhh'",
+      "pre-commit": "npm test",
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   },
