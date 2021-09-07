@@ -7,7 +7,7 @@
     "url": "git+https://github.com/Peatechen/test-docker-image-release.git"
   },
   "scripts": {
-    "test": "echo hhhhjhhhhh"
+    "test": "echo hhhhhhhhhhh"
   },
   "author": "ppchen",
   "license": "ISC",
